@@ -17,17 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerService", "Customer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BillService", "BillService", "{A1457CE1-319A-4697-B4F1-5F9FE7C1CE93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServer.CustomerService.Repository", "AppServer.CustomerService.Repository\AppServer.CustomerService.Repository.csproj", "{B7E66E1B-F337-4E12-AD43-B9011AFC1DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppServer.CustomerService.Repository", "AppServer.CustomerService.Repository\AppServer.CustomerService.Repository.csproj", "{B7E66E1B-F337-4E12-AD43-B9011AFC1DF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServer.CustomerService.DomainModel", "AppServer.CustomerService.DomainModel\AppServer.CustomerService.DomainModel.csproj", "{4900B377-2B05-454E-B630-1722CFCB20A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppServer.CustomerService.DomainModel", "AppServer.CustomerService.DomainModel\AppServer.CustomerService.DomainModel.csproj", "{4900B377-2B05-454E-B630-1722CFCB20A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServer.CustomerService.DataAccessLayer", "AppServer.CustomerService.DataAccessLayer\AppServer.CustomerService.DataAccessLayer.csproj", "{809A005F-9BC8-4EF9-A776-52852747B5D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppServer.CustomerService.DataAccessLayer", "AppServer.CustomerService.DataAccessLayer\AppServer.CustomerService.DataAccessLayer.csproj", "{809A005F-9BC8-4EF9-A776-52852747B5D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServer.CustomerService.TransferObjects", "AppServer.CustomerService.TransferObjects\AppServer.CustomerService.TransferObjects.csproj", "{15AF27BA-C31E-42D0-9ABD-610B42C1CC80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppServer.CustomerService.TransferObjects", "AppServer.CustomerService.TransferObjects\AppServer.CustomerService.TransferObjects.csproj", "{15AF27BA-C31E-42D0-9ABD-610B42C1CC80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServer.CustomerService.BusinessLogic", "AppServer.CustomerService.BusinessLogic\AppServer.CustomerService.BusinessLogic.csproj", "{529936F3-54E3-43F0-A634-BBD3AC7967E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppServer.CustomerService.BusinessLogic", "AppServer.CustomerService.BusinessLogic\AppServer.CustomerService.BusinessLogic.csproj", "{529936F3-54E3-43F0-A634-BBD3AC7967E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServer.CustomerService.OpenApi", "AppServer.CustomerService.OpenApi\AppServer.CustomerService.OpenApi.csproj", "{FD7F7F5A-2D34-45CD-8728-077C6AB8455E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppServer.CustomerService.OpenApi", "AppServer.CustomerService.OpenApi\AppServer.CustomerService.OpenApi.csproj", "{FD7F7F5A-2D34-45CD-8728-077C6AB8455E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Common", "_Common", "{0DF9783F-136C-404E-B974-ADCA70B543FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +88,7 @@ Global
 		{15AF27BA-C31E-42D0-9ABD-610B42C1CC80} = {D8B4947F-6CAE-4585-B97F-5839D116B62C}
 		{529936F3-54E3-43F0-A634-BBD3AC7967E7} = {D8B4947F-6CAE-4585-B97F-5839D116B62C}
 		{FD7F7F5A-2D34-45CD-8728-077C6AB8455E} = {D8B4947F-6CAE-4585-B97F-5839D116B62C}
+		{0DF9783F-136C-404E-B974-ADCA70B543FC} = {A6519B37-2826-4FEB-B6CB-BF729DACC01B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02DEB367-A6C2-4041-A324-73AC0135E6F4}
