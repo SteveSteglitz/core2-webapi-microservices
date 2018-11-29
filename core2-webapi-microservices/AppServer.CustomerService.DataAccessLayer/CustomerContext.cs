@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Configuration;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace AppServer.CustomerService.DataAccessLayer
+﻿namespace AppServer.CustomerService.DataAccessLayer
 {
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.DependencyInjection;
+
     public class CustomerContext : DbContext
     {
         private readonly string _connectionString;
