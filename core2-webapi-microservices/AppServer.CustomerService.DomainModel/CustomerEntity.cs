@@ -9,6 +9,8 @@ namespace AppServer.CustomerService.DomainModel
         //[Required] alternative zur FluentAPI (OnModelCreating)
         public string Name { get; set; }
 
+        public string Vorname { get; set; }
+
         public ICollection<Address> Addresses { get; set; } = new HashSet<Address>();
 
         public bool Active { get; set; }
